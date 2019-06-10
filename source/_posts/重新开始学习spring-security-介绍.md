@@ -107,3 +107,4 @@ public class SampleAuthenticationManager implements AuthenticationManager {
 1.首先的构建一个需要认证的身份证明。
 2.其次将上一步构建的身份证明作为参数，调用身份证明处理器对身份证明进行authenticate。
 3.如果身份证明无误，则将结果放入holder 中，方便其他组件使用。如果身份证明有问题，则抛出异常。
+# spring security 在web中的配置
